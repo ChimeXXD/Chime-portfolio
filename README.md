@@ -1,27 +1,34 @@
-# ChimeXDSsr
+# ChimeXD Portfolio (Angular)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.9.
+The previous version of my design portfolio. I designed it in Figma, and [@Raheemcodes](https://github.com/Raheemcodes) built it in Angular.
 
-## Development server
+**Live:** [chimezie-portfolio.web.app](https://chimezie-portfolio.web.app)
+**Current portfolio:** [chimexd.framer.website](https://chimexd.framer.website/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## What's inside
 
-## Code scaffolding
+- **Home, About, Experience:** who I am, how I work, and where I've worked
+- **Case studies:** NFT marketplace, college search, student portal, movie tickets, WhatsApp revamp, Daily UI
+- **"Cheffings":** brands and products I've designed for, including Chedda, Bulan, Foundation, Deel, Aptos Monkeys and GUI INU
+- **Playlist:** my favorite music, because a portfolio should have some personality
+- Server-side rendering (Angular Universal) for fast first loads and better SEO, hosted on Firebase
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tech stack
 
-## Build
+Angular 15 · TypeScript · SCSS · Angular Universal (SSR) · Firebase Hosting & Realtime Database
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Run it locally
 
-## Running unit tests
+You need [Node.js](https://nodejs.org/) installed.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+npm install
+npm start          # dev server at http://localhost:4200
+npm run dev:ssr    # dev server with server-side rendering
+npm run deploy     # build and deploy to Firebase
+```
 
-## Running end-to-end tests
+## Credits
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- **Design:** Ekpendu Chimezie ([ChimeXD](https://chimexd.framer.website/))
+- **Development:** [@Raheemcodes](https://github.com/Raheemcodes)
